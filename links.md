@@ -24,7 +24,7 @@
 [style-guide]: https://style.tidyverse.org "The tidyverse style guide"
 [dplyr-cheatsheet]: https://raw.githubusercontent.com/rstudio/cheatsheets/main/data-transformation.pdf "dplyr Cheat Sheet"
 [ggplot2-cheatsheet]: https://raw.githubusercontent.com/rstudio/cheatsheets/main/data-visualization.pdf "ggplot2 Cheat Sheet"
-[sagehen-wiki]: https://github.com/pomona-college-hpc "Sagehen HPC Workshop Series on GitHub"
+[sagehen-wiki]: https://github.com/Pomona-College "Sagehen HPC Workshop Series on GitHub"
 [ondemand-portal]: https://ondemand.hpc.pomona.edu "OnDemand HPC Portal"
 [its-contact]: mailto:its-hpc@pomona.edu "HPC Support Email"
 [pomona-its]: https://www.pomona.edu/its/ "Pomona College ITS"

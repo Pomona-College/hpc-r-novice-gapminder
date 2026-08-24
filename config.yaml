@@ -27,7 +27,7 @@ life_cycle: 'stable'
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/pomona-college-hpc/r-novice-gapminder'
+source: 'https://github.com/Pomona-College/hpc-r-novice-gapminder'
 
 # Default branch of your lesson
 branch: 'main'
@@ -91,5 +91,5 @@ profiles:
 # sandpaper and varnish versions) should live
 
 
-url: 'https://pomona-college-hpc.github.io/r-novice-gapminder'
+url: 'https://pomona-college.github.io/hpc-r-novice-gapminder/'
 lang: en
