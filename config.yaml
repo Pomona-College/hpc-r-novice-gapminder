@@ -12,6 +12,7 @@ carpentry: 'incubator'
 
 # Overall title for pages.
 title: 'R for Reproducible Scientific Analysis — Pomona College HPC Workshop Series'
+description: 'Reproducible scientific analysis in R with dplyr, tidyr, ggplot2 and R Markdown. Adapted from Software Carpentry for Pomona College.'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
 created: '2015-04-18'
