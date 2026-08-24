@@ -468,7 +468,36 @@ ggplot(data = gapminder, mapping = aes(x = continent, y = lifeExp, fill = contin
 [ggplot-doc]: https://ggplot2.tidyverse.org/reference/
 
 
-:::::::::::::::::::::::::::::::::::::::: keypoints
+:::::::::::::::::::::::::::::::::::::::::::::  callout
+
+## Saving plots from a batch job
+
+In RStudio your plot appears in the Plots pane because a graphics device is
+open. A batch job has no display, and base-R plotting calls will fail or
+produce nothing.
+
+`ggsave()` handles this for you — it opens and closes its own device, so it
+works unchanged under `sbatch`:
+
+```r
+ggsave('/bigdata/lab/<labname>/figures/lifeExp.png', plot = p,
+       width = 8, height = 6, dpi = 300)
+```
+
+For base-R graphics you must open the device yourself:
+
+```r
+png('/bigdata/lab/<labname>/figures/hist.png', width = 800, height = 600)
+hist(gapminder$lifeExp)
+dev.off()          # nothing is written until you call this
+```
+
+Forgetting `dev.off()` is the usual reason a batch job finishes cleanly and
+leaves an empty or corrupt image file.
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::: keypoints
 
 - Use `ggplot2` to create plots.
 - Think about graphics in layers: aesthetics, geometry, statistics, scale transformation, and grouping.

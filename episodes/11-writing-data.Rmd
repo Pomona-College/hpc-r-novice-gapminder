@@ -180,7 +180,24 @@ write.table(
 unlink("cleaned-data", recursive=TRUE)
 ```
 
-:::::::::::::::::::::::::::::::::::::::: keypoints
+:::::::::::::::::::::::::::::::::::::::::::::  callout
+
+## Where output belongs on Sagehen
+
+Write results where they will still exist tomorrow:
+
+| Location | Keep results here? |
+|---|---|
+| `/bigdata/lab/<labname>` | **Yes** — persistent, shared with your group |
+| `/rhome/<myusername>` | Small outputs and code; 100 GB quota |
+| `/scratch` | **No** — deleted when the job ends |
+
+`/scratch` is fast and worth using for intermediate files during a long job,
+but copy anything you care about to `/bigdata` before the job finishes.
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::: keypoints
 
 - Save plots from RStudio using the 'Export' button.
 - Use `write.table` to save tabular data.

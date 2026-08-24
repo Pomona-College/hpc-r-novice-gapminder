@@ -496,7 +496,26 @@ button in the top right corner of your R Markdown document.
 - [The Ecosystem of R Markdown](https://www.rstudio.com/resources/webinars/the-ecosystem-of-r-markdown/)
 - [Introducing Bookdown](https://www.rstudio.com/resources/webinars/introducing-bookdown/)
 
-:::::::::::::::::::::::::::::::::::::::: keypoints
+:::::::::::::::::::::::::::::::::::::::::::::  callout
+
+## Rendering reports without opening RStudio
+
+Knit is a button in RStudio, but it is just a function call — which means a
+report can be rebuilt by a job whenever its data changes:
+
+```bash
+module load r
+Rscript -e 'rmarkdown::render("analysis.Rmd")'
+```
+
+Put that in an `sbatch` script and your report regenerates unattended. Combine
+it with Make (Workshop 6) so the report only rebuilds when the underlying data
+actually changed, and you have the beginnings of a reproducible pipeline —
+which is Workshop 21.
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::: keypoints
 
 - Mix reporting written in R Markdown with software written in R.
 - Specify chunk options to control formatting.
