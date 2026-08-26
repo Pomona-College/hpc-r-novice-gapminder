@@ -10,7 +10,7 @@ Reproducible scientific analysis in R with dplyr, tidyr, ggplot2 and R Markdown.
 
 This is Pomona College's adaptation of the Software Carpentry lesson
 [R for Reproducible Scientific Analysis](https://swcarpentry.github.io/r-novice-gapminder/), reworked for researchers and
-students using the **Sagehen** HPC cluster. Alongside the original material it
+students using the **Sagehen HPC** HPC cluster. Alongside the original material it
 covers how the work is done here: launching sessions through the OnDemand
 portal, where data and results belong on Sagehen's storage tiers, and when to
 move an analysis from an interactive session into a submitted job.

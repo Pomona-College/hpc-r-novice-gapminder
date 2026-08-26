@@ -25,7 +25,7 @@ Dr. Lin (she/her) is a second-year postdoctoral fellow in the Pomona College psy
 - The general shape of an R Markdown document (she has knit one once)
 
 ### What She Doesn't Know Yet
-- How `here::here()` makes a script portable across machines (and across her laptop and Sagehen)
+- How `here::here()` makes a script portable across machines (and across her laptop and Sagehen HPC)
 - How to split a long script into logical R Markdown sections that knit reproducibly end to end
 - How `renv` records package versions so a reviewer running her code two years from now gets the same numbers
 - How to write a `Makefile` (or `targets` pipeline) so the figures regenerate automatically when the data changes
@@ -36,7 +36,7 @@ Dr. Lin (she/her) is a second-year postdoctoral fellow in the Pomona College psy
 - **Her PI is watching.** If she nails this submission, she goes on the next R01 as a co-investigator.
 - **Her data is on Sagehen.** The longitudinal data lives at `/bigdata/lab/psychlab/longitudinal2024/` and a full reanalysis takes ~6 hours — too long for a laptop, but a sensible SLURM batch job on the **amd** partition.
 
-### How She Will Use Sagehen
+### How She Will Use Sagehen HPC
 Dr. Lin runs interactive analyses on the Sagehen OnDemand RStudio Server (8 cores, 64 GB RAM), but submits the final knit as a SLURM batch job (`sbatch knit_paper.sh`, which calls `Rscript -e "rmarkdown::render('paper.Rmd')"`). All data lives under `/bigdata/lab/psychlab/`; her R code lives in a Git repo synced to Pomona's institutional GitHub.
 
 ### Success Indicator
@@ -77,7 +77,7 @@ Professor Alvarez (he/him) is a tenured associate professor in Pomona's economic
 - **His students will use Sagehen.** With 22 students all needing R 4.5.3, RStudio, and identical package versions, the OnDemand RStudio Server on Sagehen is the only sane delivery model.
 - **He cares about his discipline.** Several recent retraction scandals in economics have involved unreproducible Stata code; he genuinely wants his students to do better.
 
-### How He Will Use Sagehen
+### How He Will Use Sagehen HPC
 Professor Alvarez will set up a course shared directory at `/bigdata/lab/economics/methods201/` with the IPUMS-CPS extracts and the assignment templates. Each student will have their own `~/methods201-USERNAME/` Git-backed project directory. He'll show them how to launch RStudio Server through OnDemand on the amd partition with modest resources (`--cpus-per-task=2 --mem=8G --time=4:00:00`).
 
 ### Success Indicator
@@ -117,7 +117,7 @@ Sam (they/them) is a research statistician on Pomona's Research Computing team, 
 - **They want a teaching artifact.** The same template, polished, becomes the foundation for the workshops and office hours they run for graduate students and postdocs.
 - **They want to retire technical debt.** Their three-year archive of analyses-for-other-people is full of `setwd` calls and unversioned packages. Modernising the older ones in the next six months is a stated goal in their performance review.
 
-### How They Will Use Sagehen
+### How They Will Use Sagehen HPC
 Sam already lives on Sagehen. Their typical day is an interactive session on the amd partition (16 cores, 64 GB), with longer-running Stan models or simulations submitted as SLURM batch jobs. They use `/bigdata/lab/sam/` as their staging area; finished analyses migrate to the relevant lab's `/bigdata/lab/<labname>/` directory.
 
 ### Success Indicator

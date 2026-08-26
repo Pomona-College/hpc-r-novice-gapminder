@@ -14,7 +14,7 @@ by [Software Carpentry](https://software-carpentry.org/).
 **Web Portal:** [OnDemand](https://ondemand.hpc.pomona.edu/)
 **Support:** its-hpc@pomona.edu
 
-R and RStudio are available on Sagehen via `module load r` or through
+R and RStudio are available on Sagehen HPC via `module load r` or through
 the OnDemand portal. Reproducible analysis practices are essential for
 HPC research workflows.
 

@@ -24,7 +24,7 @@ source: Rmd
 
 The scientific process is naturally incremental, and many projects
 start life as random notes, some code, then a manuscript, and
-eventually everything is a bit mixed together. On Sagehen, this often shows up as a `/bigdata/lab/<labname>/` directory containing six versions of the same CSV, three Word manuscripts named `final_v2_REAL.docx`, and Cecil Sagehen's slightly desperate post-it notes. RStudio Projects are a cure for this.
+eventually everything is a bit mixed together. On Sagehen HPC, this often shows up as a `/bigdata/lab/<labname>/` directory containing six versions of the same CSV, three Word manuscripts named `final_v2_REAL.docx`, and Cecil Sagehen's slightly desperate post-it notes. RStudio Projects are a cure for this.
 
 <blockquote class="twitter-tweet"><p>Managing your projects in a reproducible fashion doesn't just make your science reproducible, it makes your life easier.</p>- Vince Buffalo (@vsbuffalo) <a href="https://twitter.com/vsbuffalo/status/323638476153167872">April 15, 2013</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

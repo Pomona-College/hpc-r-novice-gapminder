@@ -60,7 +60,7 @@ After the workshop:
 
 ## Option 2: Local Installation (If You Prefer)
 
-If you prefer R on your personal computer instead of Sagehen:
+If you prefer R on your personal computer instead of Sagehen HPC:
 
 ### Install R
 
@@ -94,7 +94,7 @@ R.version
 
 ## Workshop Setup Verification
 
-### For Sagehen Users
+### For Sagehen HPC Users
 
 Verify you have access to workshop materials:
 
@@ -115,7 +115,7 @@ You don't need pre-existing files; you'll download Gapminder data during the wor
 
 ---
 
-## Loading Modules on Sagehen
+## Loading Modules on Sagehen HPC
 
 If using Sagehen via terminal (not OnDemand RStudio), load R modules:
 
@@ -140,7 +140,7 @@ R
 
 ---
 
-## Installing Packages on Sagehen
+## Installing Packages on Sagehen HPC
 
 For Sagehen users, install workshop packages in user space:
 
@@ -168,7 +168,7 @@ library(dplyr)
 
 ## Downloading Gapminder Data
 
-### Via Sagehen (OnDemand RStudio)
+### Via Sagehen HPC (OnDemand RStudio)
 
 The Gapminder data is already available at:
 
@@ -245,7 +245,7 @@ list.files()
 
 ## Troubleshooting
 
-### "Packages won't install on Sagehen"
+### "Packages won't install on Sagehen HPC"
 
 If you get permission errors:
 

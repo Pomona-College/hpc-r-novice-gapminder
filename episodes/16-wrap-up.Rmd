@@ -108,7 +108,7 @@ steps:
 
 - **Workshop 9 — SLURM Job Scheduling**: run your analysis unattended
 - **Workshop 6 — Automation and Make**: rebuild only what changed
-- **Workshop 12 — Data Transfer and Storage**: move data on and off Sagehen
+- **Workshop 12 — Data Transfer and Storage**: move data on and off Sagehen HPC
 - **Workshop 21 — Reproducible Research Pipelines**: tie it all together
 
 Questions about the cluster or the series: <its-hpc@pomona.edu>
