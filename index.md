@@ -52,7 +52,10 @@ Understand that computers store data and instructions (programs, scripts etc.) i
 Files are organised in directories (folders).
 Know how to access files not in the working directory by specifying the path.
 
-
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
+## Acknowledgments
 
+Developed by **Andrew Wilson**, Director of Research Computing and Digital
+Scholarship at Pomona College, with **Andrei Motchenko**, who tested, edited
+and produced screenshots for the workshop series.
