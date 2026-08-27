@@ -209,7 +209,7 @@ write.table(
 
 :::::::::::::::::::::::::::::::::::::::::::::  callout
 
-## Where output belongs on Sagehen
+## Where output belongs on Sagehen HPC
 
 Write results where they will still exist tomorrow:
 
